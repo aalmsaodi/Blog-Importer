@@ -133,16 +133,14 @@
 		CE0BC58F1F6A2073003DA62A /* lab */ = {
 			isa = PBXGroup;
 			children = (
+				CEA102F21F708C500026EA53 /* Views */,
+				CEA102F01F708C2F0026EA53 /* View Controllers */,
+				CEA102EF1F708C260026EA53 /* Model */,
 				CE0BC5901F6A2073003DA62A /* AppDelegate.swift */,
 				CE0BC5941F6A2073003DA62A /* Main.storyboard */,
 				CE0BC5971F6A2073003DA62A /* Assets.xcassets */,
 				CE0BC5991F6A2073003DA62A /* LaunchScreen.storyboard */,
 				CE0BC59C1F6A2073003DA62A /* Info.plist */,
-				CE0BC5BE1F6A23B7003DA62A /* PhotosViewController.swift */,
-				CE0BC5C01F6A26D5003DA62A /* PhotoCell.swift */,
-				CE45C9251F6CB2AA00F19037 /* DetailsVC.swift */,
-				CE25D8AE1F6F3F1B00E473F4 /* InifiniteProgressIndicator.swift */,
-				CE25D8B01F6F40B000E473F4 /* UIImageView+2Resolutions.swift */,
 			);
 			path = lab;
 			sourceTree = "<group>";
@@ -163,6 +161,32 @@
 				CE0BC5B21F6A2074003DA62A /* Info.plist */,
 			);
 			path = labUITests;
+			sourceTree = "<group>";
+		};
+		CEA102EF1F708C260026EA53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CEA102F01F708C2F0026EA53 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BC5BE1F6A23B7003DA62A /* PhotosViewController.swift */,
+				CE45C9251F6CB2AA00F19037 /* DetailsVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CEA102F21F708C500026EA53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE0BC5C01F6A26D5003DA62A /* PhotoCell.swift */,
+				CE25D8AE1F6F3F1B00E473F4 /* InifiniteProgressIndicator.swift */,
+				CE25D8B01F6F40B000E473F4 /* UIImageView+2Resolutions.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
